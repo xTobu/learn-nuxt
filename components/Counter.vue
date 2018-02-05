@@ -1,7 +1,7 @@
 <template lang="pug">
     div.counter
         div
-          h2 Counter
+          h2 Counter (components)
         input(
             type='button'
             v-model = "btnPlus"

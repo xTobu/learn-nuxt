@@ -1,6 +1,6 @@
 <template lang="pug">
 div.about
-    h1  About
+    h1  About (pages)
     hr
     ul
         li
@@ -16,7 +16,7 @@ export default {
   components: {
     AppLogo
   },
-  layout: "layoutAbout"
+  layout: "about"
 };
 </script>
 

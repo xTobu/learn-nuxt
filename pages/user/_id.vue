@@ -1,16 +1,15 @@
 <template lang="pug">
-div.index
-    h1 Index (pages)
+div.users
+    h1 Users - _id ({{id}}) (pages)
     hr
 </template>
 
 <script>
-
-
 export default {
-  components: {
+  asyncData({ params, env, error }) {
+    return { id: params.id };
   }
-}
+};
 </script>
 
 <style lang="sass">

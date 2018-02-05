@@ -1,6 +1,6 @@
 <template lang="pug">
 div.count
-    h1  Count
+    h1  Count (pages)
     hr
     ul
         li

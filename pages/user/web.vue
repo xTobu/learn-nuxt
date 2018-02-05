@@ -1,7 +1,8 @@
 <template lang="pug">
-div.index
-    h1 Index (pages)
+div.users
+    h1 Users
     hr
+    h1 Web (pages)
 </template>
 
 <script>

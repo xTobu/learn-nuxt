@@ -1,14 +1,10 @@
 <template lang="pug">
     div#app
         header
-            span 不一樣的layout
+            span Header (layouts_about)
             ul.menubar
                 li
-                    nuxt-link(to="/") Home
-                li
-                    nuxt-link(to="/about") About
-                li
-                    nuxt-link(to="/count") Count           
+                    nuxt-link(to="/") Home        
         div.wrap
             nuxt
 </template>

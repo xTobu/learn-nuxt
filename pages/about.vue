@@ -21,7 +21,6 @@ export default {
 </script>
 
 <style lang="sass">
-
 .about h1 
     color: blue
 div.about li

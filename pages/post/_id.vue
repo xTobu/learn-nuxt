@@ -1,5 +1,5 @@
 <template lang="pug">
-    h1  {{message}}  
+    h1  {{message}}  {{test}}
 </template>
 
 <script>
@@ -13,6 +13,7 @@ export default {
     const data = {message: params.id}    
     return data
   },
+  
 };
 </script>
 

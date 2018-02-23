@@ -2,6 +2,7 @@
 div.index
     h1 Index (pages)
     hr
+    h2 {{test}}
 </template>
 
 <script>
@@ -9,7 +10,13 @@ div.index
 
 export default {
   components: {
-  }
+  },
+  data(){
+      return {test:'1234566'}
+  },
+  beforeMount(){
+      
+  },
 }
 </script>
 

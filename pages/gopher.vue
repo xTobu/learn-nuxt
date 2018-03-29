@@ -16,8 +16,11 @@ export default {
 
   asyncData(context) {
     return {
-      items: [require('~/assets/img/gopher.png'),require('~/assets/img/gopher.png')],
-      gop:'img/gopher.png',
+      items: [
+        require("~/assets/img/gopher.png"),
+        require("~/assets/img/gopher.png")
+      ],
+      gop: "img/gopher.png",
       src: "gopher.png"
     };
   },
